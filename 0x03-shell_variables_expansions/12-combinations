@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..Z} | tr " " " \n"
+echo {a..z}{a..Z} | tr " " "\n" | greep -v "oo"
